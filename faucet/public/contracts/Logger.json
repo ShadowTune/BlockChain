@@ -41,7 +41,7 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"emitLog\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"test3\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"testNum\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Logger.sol\":\"Logger\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Logger.sol\":{\"keccak256\":\"0x1e051451714d741d833b8c34efdfc2b301d724ea9e8741d8acdcdbf52de69e05\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0909f305b3afaa45e8bc1176d5a96734c841671f81a27104020e3d2fa8ae7df2\",\"dweb:/ipfs/QmYnitr6ffAhjky4vbqsm1GadnPBTrNufzhmLDMLHuJM1v\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"emitLog\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"test3\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"testNum\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Logger.sol\":\"Logger\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Logger.sol\":{\"keccak256\":\"0x94a51d37b0901b052adcbcfa1f508e23dbd3f2401346b08924eec4cfb4facbb6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://37d53057fc14de975d1460fb8011e26bdc2d00d1c40739eaae7f34839cdd73d9\",\"dweb:/ipfs/QmY6umRwTLv15wtJ3ZmcwKiaBmScHVpT6YXBf1sKLqVAck\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
@@ -49,7 +49,7 @@
   "deployedGeneratedSources": [],
   "sourceMap": "",
   "deployedSourceMap": "",
-  "source": "// SPDX-License-Identifier: MIT\r\n pragma solidity ^0.8.21;\r\n \r\n abstract contract Logger {\r\n \r\n    uint public testNum;\r\n    \r\n    constructor() {\r\n        testNum = 1000;\r\n    }\r\n    \r\n    function emitLog() public pure virtual returns(bytes32);\r\n    \r\n    function test3() external pure returns(uint) {\r\n        return 100;\r\n    }\r\n }",
+  "source": "// SPDX-License-Identifier: MIT\r\n pragma solidity ^0.8.13;\r\n \r\n abstract contract Logger {\r\n \r\n    uint public testNum;\r\n    \r\n    constructor() {\r\n        testNum = 1000;\r\n    }\r\n    \r\n    function emitLog() public pure virtual returns(bytes32);\r\n    \r\n    function test3() external pure returns(uint) {\r\n        return 100;\r\n    }\r\n }",
   "sourcePath": "E:\\3-2 Semester\\CSE-3200\\BlockChain\\faucet\\contracts\\Logger.sol",
   "ast": {
     "absolutePath": "project:/contracts/Logger.sol",
@@ -68,7 +68,7 @@
           "solidity",
           "^",
           "0.8",
-          ".21"
+          ".13"
         ],
         "nodeType": "PragmaDirective",
         "src": "34:24:2"
@@ -338,19 +338,18 @@
         ],
         "scope": 216,
         "src": "64:272:2",
-        "usedErrors": [],
-        "usedEvents": []
+        "usedErrors": []
       }
     ],
     "src": "34:302:2"
   },
   "compiler": {
     "name": "solc",
-    "version": "0.8.21+commit.d9974bed.Emscripten.clang"
+    "version": "0.8.13+commit.abaa5c0e.Emscripten.clang"
   },
   "networks": {},
   "schemaVersion": "3.4.16",
-  "updatedAt": "2025-03-20T16:35:32.311Z",
+  "updatedAt": "2025-03-20T18:54:22.452Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
